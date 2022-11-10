@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%); 
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%); 
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%); 
+    --White: hsl(0, 0%, 100%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    font-family: 'League Spartan', sans-serif;
+    background-image: url(/social-proof-section-master/images/bg-pattern-top-mobile.svg), url(/social-proof-section-ma7ter/images/bg-pattern-bottom-mobile.svg);
+    background-size: 150% 50%, 100% 100%;
+    background-position: left 150px top -605px, right -400px bottom -550px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.section-container {
+
+    justify-content: center;
+    position: relative;
+}
+
+.text-info {
+    width: 100%;
+    text-align: center;
+    color: var(--Very-Dark-Magenta);
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin-top: 80px;
+    line-height: 3.7rem;
+}
+
+.product-detail  {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: var(--Dark-Grayish-Magenta);
+    margin-top: 20PX;
+    font-weight: 700;
+    opacity: 0.7; 
+    margin-bottom: 30px;
+}
+
+.main-section {
+    margin-bottom: 55px ;
+}
+
+.quality-costumers {
+    width: 100%;
+}
+
+.points-customrs {
+    display: grid;
+    place-content: center;
+    height: 75px;
+    border-radius: 10px;
+    margin: 0 20px;
+   
+    background: var(--Light-Grayish-Magenta);
+    margin-bottom: 15px;
+    
+}
+
+.stars-container {
+    display: grid;
+    place-content: center;
+}
+
+.stars-container ul  {
+    display: flex;
+    height: 20px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 1px;
+   
+}
+
+.stars-container li {
+    width: 17px;
+    height: 17px;
+    margin: 0 5px;  
+}
+
+
+.stars-puntuation {
+    width: 17px;
+    height: 17px; 
+}
+
+
+.text-evaluation {
+    width: 100%;
+    
+}
+
+.text-evaluation p {
+    font-size: 1.75rem;
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.card-customer {
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    background: var(--Very-Dark-Magenta);
+    margin: 20px;
+    margin-top: 20px;
+    
+}
+
+.detail-profile {
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px 0px;
+    
+}
+
+
+
+.detail-personal-info {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    vertical-align: text-bottom;
+    
+   
+}
+
+.img-profile {
+    position: absolute;
+    border-radius: 20px;
+    width: 42px;
+    height: 42px;
+    bottom: 12px;
+    
+}
+
+.detail-name p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 65px;
+    color: var(--White);
+    margin-top: 5px; 
+}
+
+.detail-buyer p {
+    position: absolute;
+    font-size: 1.6rem;
+    margin-left: 65px;
+    margin-top: 5px;
+    color: var(--Soft-Pink);
+    
+}
+
+.detail-comment {
+    width: 270px;
+    font-size: 1.7rem;
+    color: var(--White);
+    margin-top: 20px;
+    opacity: 0.9;
+    line-height: 2.5rem;
+}
+
+.footer-img {
+    width: 100%;
+    position: absolute;
+    height: 550px;
+    margin-top: 1050px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
